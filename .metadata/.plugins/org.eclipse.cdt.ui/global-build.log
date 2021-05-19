@@ -1,0 +1,1192 @@
+14:43:33 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/ST25DV/st25dv.h -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/ST25DV/st25dv.h -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/ST25DV/st25dv.h -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/ST25DV/st25dv.h -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.o"
+cc1: warning: ../Drivers/ST25DV/st25dv.h: not a directory
+cc1: warning: ../Drivers/ST25DV/st25dv.h: not a directory
+cc1: warning: ../Drivers/ST25DV/st25dv.h: not a directory
+cc1: warning: ../Drivers/ST25DV/st25dv.h: not a directory
+cc1: warning: ../Drivers/ST25DV/st25dv.h: not a directory
+cc1: warning: ../Drivers/ST25DV/st25dv.h: not a directory
+cc1: warning: ../Drivers/ST25DV/st25dv.h: not a directory
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/ST25DV/st25dv.h -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/ST25DV/st25dv.h -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/ST25DV/st25dv.h -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/ST25DV/st25dv.h -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.o"
+cc1: warning: ../Drivers/ST25DV/st25dv.h: not a directory
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/ST25DV/st25dv.h -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.o"
+cc1: warning: ../Drivers/ST25DV/st25dv.h: not a directory
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/ST25DV/st25dv.h -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/ST25DV/st25dv.h -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/ST25DV/st25dv.h -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.o"
+cc1: warning: ../Drivers/ST25DV/st25dv.h: not a directory
+cc1: warning: ../Drivers/ST25DV/st25dv.h: not a directory
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/ST25DV/st25dv.h -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/ST25DV/st25dv.h -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.o"
+cc1: warning: ../Drivers/ST25DV/st25dv.h: not a directory
+cc1: warning: ../Drivers/ST25DV/st25dv.h: not a directory
+cc1: warning: ../Drivers/ST25DV/st25dv.h: not a directory
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/ST25DV/st25dv.h -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.o"
+cc1: warning: ../Drivers/ST25DV/st25dv.h: not a directory
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/ST25DV/st25dv.h -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.o"
+cc1: warning: ../Drivers/ST25DV/st25dv.h: not a directory
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/ST25DV/st25dv.h -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.o"
+cc1: warning: ../Drivers/ST25DV/st25dv.h: not a directory
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/ST25DV/st25dv.h -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/ST25DV/st25dv.h -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.o"
+arm-none-eabi-gcc "../Drivers/ST25DV/st25dv.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/ST25DV/st25dv.h -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/ST25DV/st25dv.d" -MT"Drivers/ST25DV/st25dv.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/ST25DV/st25dv.o"
+cc1: warning: ../Drivers/ST25DV/st25dv.h: not a directory
+cc1: warning: ../Drivers/ST25DV/st25dv.h: not a directory
+cc1: warning: ../Drivers/ST25DV/st25dv.h: not a directory
+arm-none-eabi-gcc "../Drivers/ST25DV/st25dv_reg.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/ST25DV/st25dv.h -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/ST25DV/st25dv_reg.d" -MT"Drivers/ST25DV/st25dv_reg.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/ST25DV/st25dv_reg.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/ST25DV/st25dv.h -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+cc1: warning: ../Drivers/ST25DV/st25dv.h: not a directory
+arm-none-eabi-gcc "../Core/Src/stm32l4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/ST25DV/st25dv.h -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32l4xx_hal_msp.d" -MT"Core/Src/stm32l4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32l4xx_hal_msp.o"
+cc1: warning: ../Drivers/ST25DV/st25dv.h: not a directory
+cc1: warning: ../Drivers/ST25DV/st25dv.h: not a directory
+../Core/Src/main.c:25:10: fatal error: Drivers/ST25DV/st25dv.h: No such file or directory
+   25 | #include "Drivers/ST25DV/st25dv.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+14:45:50 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.o"
+arm-none-eabi-gcc "../Drivers/ST25DV/st25dv.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/ST25DV/st25dv.d" -MT"Drivers/ST25DV/st25dv.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/ST25DV/st25dv.o"
+arm-none-eabi-gcc "../Drivers/ST25DV/st25dv_reg.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/ST25DV/st25dv_reg.d" -MT"Drivers/ST25DV/st25dv_reg.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/ST25DV/st25dv_reg.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32l4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32l4xx_hal_msp.d" -MT"Core/Src/stm32l4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32l4xx_hal_msp.o"
+In file included from ../Core/Src/main.c:21:
+../Core/Inc/main.h:32:10: fatal error: Core/Drivers/ST25DV/st25dv.h: No such file or directory
+   32 | #include "Core/Drivers/ST25DV/st25dv.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+In file included from ../Core/Src/stm32l4xx_hal_msp.c:23:
+../Core/Inc/main.h:32:10: fatal error: Core/Drivers/ST25DV/st25dv.h: No such file or directory
+   32 | #include "Core/Drivers/ST25DV/st25dv.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Core/Src/subdir.mk:36: Core/Src/stm32l4xx_hal_msp.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+14:48:27 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Core/Inc" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/CMSIS/Include" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Core/Inc" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/CMSIS/Include" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Core/Inc" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/CMSIS/Include" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Core/Inc" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/CMSIS/Include" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Core/Inc" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/CMSIS/Include" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Core/Inc" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/CMSIS/Include" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Core/Inc" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/CMSIS/Include" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Core/Inc" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/CMSIS/Include" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Core/Inc" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/CMSIS/Include" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Core/Inc" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/CMSIS/Include" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Core/Inc" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/CMSIS/Include" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Core/Inc" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/CMSIS/Include" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Core/Inc" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/CMSIS/Include" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Core/Inc" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/CMSIS/Include" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Core/Inc" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/CMSIS/Include" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Core/Inc" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/CMSIS/Include" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Core/Inc" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/CMSIS/Include" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Core/Inc" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/CMSIS/Include" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Core/Inc" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/CMSIS/Include" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.o"
+arm-none-eabi-gcc "../Drivers/ST25DV/st25dv.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Core/Inc" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/CMSIS/Include" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/ST25DV/st25dv.d" -MT"Drivers/ST25DV/st25dv.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/ST25DV/st25dv.o"
+arm-none-eabi-gcc "../Drivers/ST25DV/st25dv_reg.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Core/Inc" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/CMSIS/Include" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/ST25DV/st25dv_reg.d" -MT"Drivers/ST25DV/st25dv_reg.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/ST25DV/st25dv_reg.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Core/Inc" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/CMSIS/Include" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32l4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Core/Inc" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/CMSIS/Include" -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32l4xx_hal_msp.d" -MT"Core/Src/stm32l4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32l4xx_hal_msp.o"
+../Core/Src/main.c:25:10: fatal error: Drivers/ST25DV/st25dv.h: No such file or directory
+   25 | #include "Drivers/ST25DV/st25dv.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+14:49:05 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I/nucleoNFC/Core/Inc -I/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I/nucleoNFC/Drivers/CMSIS/Include -I/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc -I/nucleoNFC/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I/nucleoNFC/Drivers/ST25DV -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I/nucleoNFC/Core/Inc -I/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I/nucleoNFC/Drivers/CMSIS/Include -I/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc -I/nucleoNFC/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I/nucleoNFC/Drivers/ST25DV -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I/nucleoNFC/Core/Inc -I/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I/nucleoNFC/Drivers/CMSIS/Include -I/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc -I/nucleoNFC/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I/nucleoNFC/Drivers/ST25DV -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I/nucleoNFC/Core/Inc -I/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I/nucleoNFC/Drivers/CMSIS/Include -I/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc -I/nucleoNFC/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I/nucleoNFC/Drivers/ST25DV -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I/nucleoNFC/Core/Inc -I/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I/nucleoNFC/Drivers/CMSIS/Include -I/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc -I/nucleoNFC/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I/nucleoNFC/Drivers/ST25DV -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I/nucleoNFC/Core/Inc -I/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I/nucleoNFC/Drivers/CMSIS/Include -I/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc -I/nucleoNFC/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I/nucleoNFC/Drivers/ST25DV -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I/nucleoNFC/Core/Inc -I/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I/nucleoNFC/Drivers/CMSIS/Include -I/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc -I/nucleoNFC/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I/nucleoNFC/Drivers/ST25DV -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I/nucleoNFC/Core/Inc -I/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I/nucleoNFC/Drivers/CMSIS/Include -I/nucleoNFC/Drivers/STM32L4xx_HAL_Driver/Inc -I/nucleoNFC/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I/nucleoNFC/Drivers/ST25DV -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.o"
+../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c:36:10: fatal error: stm32l4xx_hal.h: No such file or directory
+   36 | #include "stm32l4xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c:105:10: fatal error: stm32l4xx_hal.h: No such file or directory
+  105 | #include "stm32l4xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c:90:10: fatal error: stm32l4xx_hal.h: No such file or directory
+   90 | #include "stm32l4xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c:90:10: fatal error: stm32l4xx_hal.h: No such file or directory
+   90 | #include "stm32l4xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c:87:10: fatal error: stm32l4xx_hal.h: No such file or directory
+   87 | #include "stm32l4xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+compilation terminated.
+make: *** [Drivers/STM32L4xx_HAL_Driver/Src/subdir.mk:77: Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Drivers/STM32L4xx_HAL_Driver/Src/subdir.mk:75: Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.o] Error 1
+make: *** [Drivers/STM32L4xx_HAL_Driver/Src/subdir.mk:83: Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.o] Error 1
+make: *** [Drivers/STM32L4xx_HAL_Driver/Src/subdir.mk:81: Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.o] Error 1
+make: *** [Drivers/STM32L4xx_HAL_Driver/Src/subdir.mk:73: Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.o] Error 1
+../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c:50:10: fatal error: stm32l4xx_hal.h: No such file or directory
+   50 | #include "stm32l4xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Drivers/STM32L4xx_HAL_Driver/Src/subdir.mk:87: Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.o] Error 1
+../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c:63:10: fatal error: stm32l4xx_hal.h: No such file or directory
+   63 | #include "stm32l4xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Drivers/STM32L4xx_HAL_Driver/Src/subdir.mk:85: Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.o] Error 1
+../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c:50:10: fatal error: stm32l4xx_hal.h: No such file or directory
+   50 | #include "stm32l4xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Drivers/STM32L4xx_HAL_Driver/Src/subdir.mk:79: Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+14:51:48 **** Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.o"
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32l476rgtx.d" -MT"Core/Startup/startup_stm32l476rgtx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Startup/startup_stm32l476rgtx.o" "../Core/Startup/startup_stm32l476rgtx.s"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32l4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32l4xx_hal_msp.d" -MT"Core/Src/stm32l4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32l4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32l4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32l4xx_it.d" -MT"Core/Src/stm32l4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32l4xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32l4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/system_stm32l4xx.d" -MT"Core/Src/system_stm32l4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32l4xx.o"
+arm-none-eabi-gcc -o "nucleoNFC.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="nucleoNFC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: nucleoNFC.elf
+ 
+arm-none-eabi-size   nucleoNFC.elf 
+arm-none-eabi-objdump -h -S  nucleoNFC.elf  > "nucleoNFC.list"
+arm-none-eabi-objcopy  -O binary  nucleoNFC.elf  "nucleoNFC.bin"
+   text	   data	    bss	    dec	    hex	filename
+  11892	     20	   1700	  13612	   352c	nucleoNFC.elf
+Finished building: default.size.stdout
+ 
+Finished building: nucleoNFC.bin
+ 
+Finished building: nucleoNFC.list
+ 
+14:51:54 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-size   nucleoNFC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11892	     20	   1700	  13612	   352c	nucleoNFC.elf
+Finished building: default.size.stdout
+ 
+14:53:06 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:70:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   70 |  printf("test \n");
+      |  ^~~~~~
+../Core/Src/main.c:70:2: warning: incompatible implicit declaration of built-in function 'printf'
+../Core/Src/main.c:22:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   21 | #include "main.h"
+  +++ |+#include <stdio.h>
+   22 | 
+arm-none-eabi-gcc -o "nucleoNFC.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="nucleoNFC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: nucleoNFC.elf
+ 
+arm-none-eabi-objdump -h -S  nucleoNFC.elf  > "nucleoNFC.list"
+arm-none-eabi-objcopy  -O binary  nucleoNFC.elf  "nucleoNFC.bin"
+arm-none-eabi-size   nucleoNFC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15044	    120	   1728	  16892	   41fc	nucleoNFC.elf
+Finished building: default.size.stdout
+ 
+Finished building: nucleoNFC.bin
+ 
+Finished building: nucleoNFC.list
+ 
+14:53:53 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-size   nucleoNFC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15044	    120	   1728	  16892	   41fc	nucleoNFC.elf
+Finished building: default.size.stdout
+ 
+14:54:36 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:70:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   70 |  printf("test \n");
+      |  ^~~~~~
+../Core/Src/main.c:70:2: warning: incompatible implicit declaration of built-in function 'printf'
+../Core/Src/main.c:22:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   21 | #include "main.h"
+  +++ |+#include <stdio.h>
+   22 | 
+arm-none-eabi-gcc -o "nucleoNFC.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="nucleoNFC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: nucleoNFC.elf
+ 
+arm-none-eabi-objdump -h -S  nucleoNFC.elf  > "nucleoNFC.list"
+arm-none-eabi-objcopy  -O binary  nucleoNFC.elf  "nucleoNFC.bin"
+arm-none-eabi-size   nucleoNFC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16840	    120	   1728	  18688	   4900	nucleoNFC.elf
+Finished building: default.size.stdout
+ 
+Finished building: nucleoNFC.bin
+ 
+Finished building: nucleoNFC.list
+ 
+14:54:48 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-size   nucleoNFC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16840	    120	   1728	  18688	   4900	nucleoNFC.elf
+Finished building: default.size.stdout
+ 
+14:55:39 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-size   nucleoNFC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16840	    120	   1728	  18688	   4900	nucleoNFC.elf
+Finished building: default.size.stdout
+ 
+14:56:07 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-size   nucleoNFC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16840	    120	   1728	  18688	   4900	nucleoNFC.elf
+Finished building: default.size.stdout
+ 
+14:57:31 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:103:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  103 |    printf("test");
+      |    ^~~~~~
+../Core/Src/main.c:103:4: warning: incompatible implicit declaration of built-in function 'printf'
+../Core/Src/main.c:22:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   21 | #include "main.h"
+  +++ |+#include <stdio.h>
+   22 | 
+arm-none-eabi-gcc -o "nucleoNFC.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="nucleoNFC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: nucleoNFC.elf
+ 
+arm-none-eabi-objdump -h -S  nucleoNFC.elf  > "nucleoNFC.list"
+arm-none-eabi-objcopy  -O binary  nucleoNFC.elf  "nucleoNFC.bin"
+arm-none-eabi-size   nucleoNFC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16584	    120	   1728	  18432	   4800	nucleoNFC.elf
+Finished building: default.size.stdout
+ 
+Finished building: nucleoNFC.bin
+ 
+Finished building: nucleoNFC.list
+ 
+14:57:53 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "nucleoNFC.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="nucleoNFC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: nucleoNFC.elf
+ 
+arm-none-eabi-objdump -h -S  nucleoNFC.elf  > "nucleoNFC.list"
+arm-none-eabi-objcopy  -O binary  nucleoNFC.elf  "nucleoNFC.bin"
+arm-none-eabi-size   nucleoNFC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  12052	     20	   1700	  13772	   35cc	nucleoNFC.elf
+Finished building: default.size.stdout
+ 
+Finished building: nucleoNFC.bin
+ 
+Finished building: nucleoNFC.list
+ 
+14:58:52 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-size   nucleoNFC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  12052	     20	   1700	  13772	   35cc	nucleoNFC.elf
+Finished building: default.size.stdout
+ 
+14:59:44 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "nucleoNFC.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="nucleoNFC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: nucleoNFC.elf
+ 
+arm-none-eabi-objdump -h -S  nucleoNFC.elf  > "nucleoNFC.list"
+arm-none-eabi-objcopy  -O binary  nucleoNFC.elf  "nucleoNFC.bin"
+arm-none-eabi-size   nucleoNFC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  12036	     20	   1700	  13756	   35bc	nucleoNFC.elf
+Finished building: default.size.stdout
+ 
+Finished building: nucleoNFC.bin
+ 
+Finished building: nucleoNFC.list
+ 
+14:59:59 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:100:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  100 |    printf("test");
+      |    ^~~~~~
+../Core/Src/main.c:100:4: warning: incompatible implicit declaration of built-in function 'printf'
+../Core/Src/main.c:22:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   21 | #include "main.h"
+  +++ |+#include <stdio.h>
+   22 | 
+arm-none-eabi-gcc -o "nucleoNFC.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="nucleoNFC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: nucleoNFC.elf
+ 
+arm-none-eabi-objdump -h -S  nucleoNFC.elf  > "nucleoNFC.list"
+arm-none-eabi-objcopy  -O binary  nucleoNFC.elf  "nucleoNFC.bin"
+arm-none-eabi-size   nucleoNFC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16568	    120	   1728	  18416	   47f0	nucleoNFC.elf
+Finished building: default.size.stdout
+ 
+Finished building: nucleoNFC.bin
+ 
+Finished building: nucleoNFC.list
+ 
+15:00:09 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-size   nucleoNFC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16568	    120	   1728	  18416	   47f0	nucleoNFC.elf
+Finished building: default.size.stdout
+ 
+15:00:50 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:100:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  100 |    printf("test");
+      |    ^~~~~~
+../Core/Src/main.c:100:4: warning: incompatible implicit declaration of built-in function 'printf'
+../Core/Src/main.c:22:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   21 | #include "main.h"
+  +++ |+#include <stdio.h>
+   22 | 
+arm-none-eabi-gcc -o "nucleoNFC.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="nucleoNFC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: nucleoNFC.elf
+ 
+arm-none-eabi-objdump -h -S  nucleoNFC.elf  > "nucleoNFC.list"
+arm-none-eabi-objcopy  -O binary  nucleoNFC.elf  "nucleoNFC.bin"
+arm-none-eabi-size   nucleoNFC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16564	    120	   1728	  18412	   47ec	nucleoNFC.elf
+Finished building: default.size.stdout
+ 
+Finished building: nucleoNFC.bin
+ 
+Finished building: nucleoNFC.list
+ 
+15:01:31 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-size   nucleoNFC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16564	    120	   1728	  18412	   47ec	nucleoNFC.elf
+Finished building: default.size.stdout
+ 
+15:01:40 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-size   nucleoNFC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16564	    120	   1728	  18412	   47ec	nucleoNFC.elf
+Finished building: default.size.stdout
+ 
+15:04:12 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:100:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  100 |    printf("test \n");
+      |    ^~~~~~
+../Core/Src/main.c:100:4: warning: incompatible implicit declaration of built-in function 'printf'
+../Core/Src/main.c:22:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   21 | #include "main.h"
+  +++ |+#include <stdio.h>
+   22 | 
+arm-none-eabi-gcc -o "nucleoNFC.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="nucleoNFC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: nucleoNFC.elf
+ 
+arm-none-eabi-objdump -h -S  nucleoNFC.elf  > "nucleoNFC.list"
+arm-none-eabi-objcopy  -O binary  nucleoNFC.elf  "nucleoNFC.bin"
+arm-none-eabi-size   nucleoNFC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15040	    120	   1728	  16888	   41f8	nucleoNFC.elf
+Finished building: default.size.stdout
+ 
+Finished building: nucleoNFC.bin
+ 
+Finished building: nucleoNFC.list
+ 
+15:07:46 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.o"
+arm-none-eabi-gcc "../Drivers/ST25DV/st25dv.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/ST25DV/st25dv.d" -MT"Drivers/ST25DV/st25dv.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/ST25DV/st25dv.o"
+arm-none-eabi-gcc "../Drivers/ST25DV/st25dv_reg.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/ST25DV/st25dv_reg.d" -MT"Drivers/ST25DV/st25dv_reg.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/ST25DV/st25dv_reg.o"
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -c -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32l476rgtx.d" -MT"Core/Startup/startup_stm32l476rgtx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Startup/startup_stm32l476rgtx.o" "../Core/Startup/startup_stm32l476rgtx.s"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32l4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32l4xx_hal_msp.d" -MT"Core/Src/stm32l4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32l4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32l4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32l4xx_it.d" -MT"Core/Src/stm32l4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32l4xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:100:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  100 |    printf("test \n");
+      |    ^~~~~~
+../Core/Src/main.c:100:4: warning: incompatible implicit declaration of built-in function 'printf'
+../Core/Src/main.c:22:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   21 | #include "main.h"
+  +++ |+#include <stdio.h>
+   22 | 
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32l4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/system_stm32l4xx.d" -MT"Core/Src/system_stm32l4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32l4xx.o"
+arm-none-eabi-gcc -o "nucleoNFC.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="nucleoNFC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: nucleoNFC.elf
+ 
+arm-none-eabi-objdump -h -S  nucleoNFC.elf  > "nucleoNFC.list"
+arm-none-eabi-objcopy  -O binary  nucleoNFC.elf  "nucleoNFC.bin"
+arm-none-eabi-size   nucleoNFC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15040	    120	   1728	  16888	   41f8	nucleoNFC.elf
+Finished building: default.size.stdout
+ 
+Finished building: nucleoNFC.bin
+ 
+Finished building: nucleoNFC.list
+ 
+15:33:30 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:99:23: error: 'PA5' undeclared (first use in this function)
+   99 |    HAL_GPIO_TogglePin(PA5);
+      |                       ^~~
+../Core/Src/main.c:99:23: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:99:4: error: too few arguments to function 'HAL_GPIO_TogglePin'
+   99 |    HAL_GPIO_TogglePin(PA5);
+      |    ^~~~~~~~~~~~~~~~~~
+In file included from ../Core/Inc/stm32l4xx_hal_conf.h:261,
+                 from ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h:273:19: note: declared here
+  273 | void              HAL_GPIO_TogglePin(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin);
+      |                   ^~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:100:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  100 |    printf("test \n");
+      |    ^~~~~~
+../Core/Src/main.c:100:4: warning: incompatible implicit declaration of built-in function 'printf'
+../Core/Src/main.c:22:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   21 | #include "main.h"
+  +++ |+#include <stdio.h>
+   22 | 
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+15:35:07 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:69:17: error: 'PA5' undeclared (first use in this function)
+   69 | #define LED_PIN PA5
+      |                 ^~~
+../Core/Src/main.c:103:23: note: in expansion of macro 'LED_PIN'
+  103 |    HAL_GPIO_TogglePin(LED_PIN);
+      |                       ^~~~~~~
+../Core/Src/main.c:69:17: note: each undeclared identifier is reported only once for each function it appears in
+   69 | #define LED_PIN PA5
+      |                 ^~~
+../Core/Src/main.c:103:23: note: in expansion of macro 'LED_PIN'
+  103 |    HAL_GPIO_TogglePin(LED_PIN);
+      |                       ^~~~~~~
+../Core/Src/main.c:103:4: error: too few arguments to function 'HAL_GPIO_TogglePin'
+  103 |    HAL_GPIO_TogglePin(LED_PIN);
+      |    ^~~~~~~~~~~~~~~~~~
+In file included from ../Core/Inc/stm32l4xx_hal_conf.h:261,
+                 from ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h:273:19: note: declared here
+  273 | void              HAL_GPIO_TogglePin(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin);
+      |                   ^~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:104:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  104 |    printf("test \n");
+      |    ^~~~~~
+../Core/Src/main.c:104:4: warning: incompatible implicit declaration of built-in function 'printf'
+../Core/Src/main.c:22:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   21 | #include "main.h"
+  +++ |+#include <stdio.h>
+   22 | 
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+15:58:21 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32l4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32l4xx_hal_msp.d" -MT"Core/Src/stm32l4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32l4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32l4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32l4xx_it.d" -MT"Core/Src/stm32l4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32l4xx_it.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:101:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  101 |    printf("test \n");
+      |    ^~~~~~
+../Core/Src/main.c:101:4: warning: incompatible implicit declaration of built-in function 'printf'
+../Core/Src/main.c:22:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   21 | #include "main.h"
+  +++ |+#include <stdio.h>
+   22 | 
+arm-none-eabi-gcc -o "nucleoNFC.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="nucleoNFC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: nucleoNFC.elf
+ 
+arm-none-eabi-objdump -h -S  nucleoNFC.elf  > "nucleoNFC.list"
+arm-none-eabi-objcopy  -O binary  nucleoNFC.elf  "nucleoNFC.bin"
+arm-none-eabi-size   nucleoNFC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15040	    120	   1728	  16888	   41f8	nucleoNFC.elf
+Finished building: default.size.stdout
+ 
+Finished building: nucleoNFC.bin
+ 
+Finished building: nucleoNFC.list
+ 
+16:14:55 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:101:34: error: 'hi2c1' undeclared (first use in this function); did you mean 'hi2c3'?
+  101 |   ret = HAL_I2C_Master_Transmit(&hi2c1, st25dv_ADDR, buf, 1, HAL_MAX_DELAY);
+      |                                  ^~~~~
+      |                                  hi2c3
+../Core/Src/main.c:101:34: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:76:10: warning: unused variable 'val' [-Wunused-variable]
+   76 |  int16_t val;
+      |          ^~~
+../Core/Src/main.c:74:20: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+   74 |  HAL_StatusTypeDef ret;
+      |                    ^~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:57:13: warning: 'MX_I2C3_Init' used but never defined
+   57 | static void MX_I2C3_Init(void);
+      |             ^~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+16:15:14 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:76:10: warning: unused variable 'val' [-Wunused-variable]
+   76 |  int16_t val;
+      |          ^~~
+../Core/Src/main.c:74:20: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+   74 |  HAL_StatusTypeDef ret;
+      |                    ^~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:57:13: warning: 'MX_I2C3_Init' used but never defined
+   57 | static void MX_I2C3_Init(void);
+      |             ^~~~~~~~~~~~
+arm-none-eabi-gcc -o "nucleoNFC.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="nucleoNFC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+/opt/st/stm32cubeide_1.6.1/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld: Core/Src/main.o: in function `main':
+/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Debug/../Core/Src/main.c:98: undefined reference to `MX_I2C3_Init'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:66: nucleoNFC.elf] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+16:16:08 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32l4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32l4xx_hal_msp.d" -MT"Core/Src/stm32l4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32l4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32l4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32l4xx_it.d" -MT"Core/Src/stm32l4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32l4xx_it.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32l4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/system_stm32l4xx.d" -MT"Core/Src/system_stm32l4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32l4xx.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:77:10: warning: unused variable 'val' [-Wunused-variable]
+   77 |  int16_t val;
+      |          ^~~
+../Core/Src/main.c:75:20: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+   75 |  HAL_StatusTypeDef ret;
+      |                    ^~~
+arm-none-eabi-gcc -o "nucleoNFC.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="nucleoNFC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: nucleoNFC.elf
+ 
+arm-none-eabi-objdump -h -S  nucleoNFC.elf  > "nucleoNFC.list"
+arm-none-eabi-objcopy  -O binary  nucleoNFC.elf  "nucleoNFC.bin"
+arm-none-eabi-size   nucleoNFC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  14028	     20	   1780	  15828	   3dd4	nucleoNFC.elf
+Finished building: default.size.stdout
+ 
+Finished building: nucleoNFC.bin
+ 
+Finished building: nucleoNFC.list
+ 
+16:16:39 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-size   nucleoNFC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  14028	     20	   1780	  15828	   3dd4	nucleoNFC.elf
+Finished building: default.size.stdout
+ 
+16:18:36 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:77:10: warning: unused variable 'val' [-Wunused-variable]
+   77 |  int16_t val;
+      |          ^~~
+../Core/Src/main.c:75:20: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+   75 |  HAL_StatusTypeDef ret;
+      |                    ^~~
+arm-none-eabi-gcc -o "nucleoNFC.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="nucleoNFC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: nucleoNFC.elf
+ 
+arm-none-eabi-objdump -h -S  nucleoNFC.elf  > "nucleoNFC.list"
+arm-none-eabi-objcopy  -O binary  nucleoNFC.elf  "nucleoNFC.bin"
+arm-none-eabi-size   nucleoNFC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17032	    120	   1808	  18960	   4a10	nucleoNFC.elf
+Finished building: default.size.stdout
+ 
+Finished building: nucleoNFC.bin
+ 
+Finished building: nucleoNFC.list
+ 
+16:20:21 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:77:10: warning: unused variable 'val' [-Wunused-variable]
+   77 |  int16_t val;
+      |          ^~~
+../Core/Src/main.c:75:20: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+   75 |  HAL_StatusTypeDef ret;
+      |                    ^~~
+arm-none-eabi-gcc -o "nucleoNFC.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="nucleoNFC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: nucleoNFC.elf
+ 
+arm-none-eabi-objdump -h -S  nucleoNFC.elf  > "nucleoNFC.list"
+arm-none-eabi-objcopy  -O binary  nucleoNFC.elf  "nucleoNFC.bin"
+arm-none-eabi-size   nucleoNFC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17056	    120	   1808	  18984	   4a28	nucleoNFC.elf
+Finished building: default.size.stdout
+ 
+Finished building: nucleoNFC.bin
+ 
+Finished building: nucleoNFC.list
+ 
+16:24:40 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:77:10: warning: unused variable 'val' [-Wunused-variable]
+   77 |  int16_t val;
+      |          ^~~
+../Core/Src/main.c:75:20: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+   75 |  HAL_StatusTypeDef ret;
+      |                    ^~~
+arm-none-eabi-gcc -o "nucleoNFC.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="nucleoNFC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: nucleoNFC.elf
+ 
+arm-none-eabi-objdump -h -S  nucleoNFC.elf  > "nucleoNFC.list"
+arm-none-eabi-objcopy  -O binary  nucleoNFC.elf  "nucleoNFC.bin"
+arm-none-eabi-size   nucleoNFC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17056	    120	   1808	  18984	   4a28	nucleoNFC.elf
+Finished building: default.size.stdout
+ 
+Finished building: nucleoNFC.bin
+ 
+Finished building: nucleoNFC.list
+ 
+16:27:03 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:77:10: warning: unused variable 'val' [-Wunused-variable]
+   77 |  int16_t val;
+      |          ^~~
+arm-none-eabi-gcc -o "nucleoNFC.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="nucleoNFC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: nucleoNFC.elf
+ 
+arm-none-eabi-objdump -h -S  nucleoNFC.elf  > "nucleoNFC.list"
+arm-none-eabi-objcopy  -O binary  nucleoNFC.elf  "nucleoNFC.bin"
+arm-none-eabi-size   nucleoNFC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17064	    120	   1808	  18992	   4a30	nucleoNFC.elf
+Finished building: default.size.stdout
+ 
+Finished building: nucleoNFC.bin
+ 
+Finished building: nucleoNFC.list
+ 
+16:27:49 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:77:10: warning: unused variable 'val' [-Wunused-variable]
+   77 |  int16_t val;
+      |          ^~~
+arm-none-eabi-gcc -o "nucleoNFC.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="nucleoNFC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: nucleoNFC.elf
+ 
+arm-none-eabi-objdump -h -S  nucleoNFC.elf  > "nucleoNFC.list"
+arm-none-eabi-objcopy  -O binary  nucleoNFC.elf  "nucleoNFC.bin"
+arm-none-eabi-size   nucleoNFC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17100	    120	   1808	  19028	   4a54	nucleoNFC.elf
+Finished building: default.size.stdout
+ 
+Finished building: nucleoNFC.bin
+ 
+Finished building: nucleoNFC.list
+ 
+16:28:07 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-size   nucleoNFC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17100	    120	   1808	  19028	   4a54	nucleoNFC.elf
+Finished building: default.size.stdout
+ 
+16:29:48 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:77:10: warning: unused variable 'val' [-Wunused-variable]
+   77 |  int16_t val;
+      |          ^~~
+arm-none-eabi-gcc -o "nucleoNFC.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="nucleoNFC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: nucleoNFC.elf
+ 
+arm-none-eabi-objdump -h -S  nucleoNFC.elf  > "nucleoNFC.list"
+arm-none-eabi-objcopy  -O binary  nucleoNFC.elf  "nucleoNFC.bin"
+arm-none-eabi-size   nucleoNFC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17100	    120	   1808	  19028	   4a54	nucleoNFC.elf
+Finished building: default.size.stdout
+ 
+Finished building: nucleoNFC.bin
+ 
+Finished building: nucleoNFC.list
+ 
+16:34:36 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:103:54: warning: passing argument 3 of 'HAL_I2C_Master_Transmit' from incompatible pointer type [-Wincompatible-pointer-types]
+  103 |   ret = HAL_I2C_Master_Transmit(&hi2c3, st25dv_ADDR, buf, 0xAA, HAL_MAX_DELAY);
+      |                                                      ^~~
+      |                                                      |
+      |                                                      uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32l4xx_hal_conf.h:341,
+                 from ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h:604:98: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  604 | HAL_StatusTypeDef HAL_I2C_Master_Transmit(I2C_HandleTypeDef *hi2c, uint16_t DevAddress, uint8_t *pData, uint16_t Size,
+      |                                                                                         ~~~~~~~~~^~~~~
+../Core/Src/main.c:77:10: warning: unused variable 'val' [-Wunused-variable]
+   77 |  int16_t val;
+      |          ^~~
+arm-none-eabi-gcc -o "nucleoNFC.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="nucleoNFC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: nucleoNFC.elf
+ 
+arm-none-eabi-objdump -h -S  nucleoNFC.elf  > "nucleoNFC.list"
+arm-none-eabi-objcopy  -O binary  nucleoNFC.elf  "nucleoNFC.bin"
+arm-none-eabi-size   nucleoNFC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17096	    120	   1808	  19024	   4a50	nucleoNFC.elf
+Finished building: default.size.stdout
+ 
+Finished building: nucleoNFC.bin
+ 
+Finished building: nucleoNFC.list
+ 
+16:37:19 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:103:54: warning: passing argument 3 of 'HAL_I2C_Master_Transmit' from incompatible pointer type [-Wincompatible-pointer-types]
+  103 |   ret = HAL_I2C_Master_Transmit(&hi2c3, st25dv_ADDR, buf, 0xF, HAL_MAX_DELAY);
+      |                                                      ^~~
+      |                                                      |
+      |                                                      uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32l4xx_hal_conf.h:341,
+                 from ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h:604:98: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  604 | HAL_StatusTypeDef HAL_I2C_Master_Transmit(I2C_HandleTypeDef *hi2c, uint16_t DevAddress, uint8_t *pData, uint16_t Size,
+      |                                                                                         ~~~~~~~~~^~~~~
+../Core/Src/main.c:77:9: warning: unused variable 'val' [-Wunused-variable]
+   77 |  int8_t val;
+      |         ^~~
+arm-none-eabi-gcc -o "nucleoNFC.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="nucleoNFC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: nucleoNFC.elf
+ 
+arm-none-eabi-objdump -h -S  nucleoNFC.elf  > "nucleoNFC.list"
+arm-none-eabi-objcopy  -O binary  nucleoNFC.elf  "nucleoNFC.bin"
+arm-none-eabi-size   nucleoNFC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17096	    120	   1808	  19024	   4a50	nucleoNFC.elf
+Finished building: default.size.stdout
+ 
+Finished building: nucleoNFC.bin
+ 
+Finished building: nucleoNFC.list
+ 
+16:37:41 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-size   nucleoNFC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17096	    120	   1808	  19024	   4a50	nucleoNFC.elf
+Finished building: default.size.stdout
+ 
+16:39:42 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:103:54: warning: passing argument 3 of 'HAL_I2C_Master_Transmit' from incompatible pointer type [-Wincompatible-pointer-types]
+  103 |   ret = HAL_I2C_Master_Transmit(&hi2c3, st25dv_ADDR, buf, 0xFF, HAL_MAX_DELAY);
+      |                                                      ^~~
+      |                                                      |
+      |                                                      uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32l4xx_hal_conf.h:341,
+                 from ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h:604:98: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  604 | HAL_StatusTypeDef HAL_I2C_Master_Transmit(I2C_HandleTypeDef *hi2c, uint16_t DevAddress, uint8_t *pData, uint16_t Size,
+      |                                                                                         ~~~~~~~~~^~~~~
+../Core/Src/main.c:77:9: warning: unused variable 'val' [-Wunused-variable]
+   77 |  int8_t val;
+      |         ^~~
+arm-none-eabi-gcc -o "nucleoNFC.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="nucleoNFC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: nucleoNFC.elf
+ 
+arm-none-eabi-objdump -h -S  nucleoNFC.elf  > "nucleoNFC.list"
+arm-none-eabi-objcopy  -O binary  nucleoNFC.elf  "nucleoNFC.bin"
+arm-none-eabi-size   nucleoNFC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17096	    120	   1808	  19024	   4a50	nucleoNFC.elf
+Finished building: default.size.stdout
+ 
+Finished building: nucleoNFC.bin
+ 
+Finished building: nucleoNFC.list
+ 
+16:46:45 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:103:16: error: expected ';' before 'printf'
+  103 |   buf[2] = 0xFF
+      |                ^
+      |                ;
+  104 |   printf("starting transmission\n");
+      |   ~~~~~~        
+../Core/Src/main.c:77:9: warning: unused variable 'val' [-Wunused-variable]
+   77 |  int8_t val;
+      |         ^~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+16:46:56 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:77:9: warning: unused variable 'val' [-Wunused-variable]
+   77 |  int8_t val;
+      |         ^~~
+arm-none-eabi-gcc -o "nucleoNFC.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="nucleoNFC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: nucleoNFC.elf
+ 
+arm-none-eabi-objdump -h -S  nucleoNFC.elf  > "nucleoNFC.list"
+arm-none-eabi-objcopy  -O binary  nucleoNFC.elf  "nucleoNFC.bin"
+arm-none-eabi-size   nucleoNFC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17108	    120	   1808	  19036	   4a5c	nucleoNFC.elf
+Finished building: default.size.stdout
+ 
+Finished building: nucleoNFC.bin
+ 
+Finished building: nucleoNFC.list
+ 
+16:47:52 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:77:9: warning: unused variable 'val' [-Wunused-variable]
+   77 |  int8_t val;
+      |         ^~~
+arm-none-eabi-gcc -o "nucleoNFC.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="nucleoNFC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: nucleoNFC.elf
+ 
+arm-none-eabi-objdump -h -S  nucleoNFC.elf  > "nucleoNFC.list"
+arm-none-eabi-objcopy  -O binary  nucleoNFC.elf  "nucleoNFC.bin"
+arm-none-eabi-size   nucleoNFC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17104	    120	   1808	  19032	   4a58	nucleoNFC.elf
+Finished building: default.size.stdout
+ 
+Finished building: nucleoNFC.bin
+ 
+Finished building: nucleoNFC.list
+ 
+16:49:02 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:77:9: warning: unused variable 'val' [-Wunused-variable]
+   77 |  int8_t val;
+      |         ^~~
+arm-none-eabi-gcc -o "nucleoNFC.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="nucleoNFC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: nucleoNFC.elf
+ 
+arm-none-eabi-objdump -h -S  nucleoNFC.elf  > "nucleoNFC.list"
+arm-none-eabi-objcopy  -O binary  nucleoNFC.elf  "nucleoNFC.bin"
+arm-none-eabi-size   nucleoNFC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17104	    120	   1808	  19032	   4a58	nucleoNFC.elf
+Finished building: default.size.stdout
+ 
+Finished building: nucleoNFC.bin
+ 
+Finished building: nucleoNFC.list
+ 
+16:49:13 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-size   nucleoNFC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17104	    120	   1808	  19032	   4a58	nucleoNFC.elf
+Finished building: default.size.stdout
+ 
+16:49:33 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-size   nucleoNFC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17104	    120	   1808	  19032	   4a58	nucleoNFC.elf
+Finished building: default.size.stdout
+ 
+16:53:40 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:77:9: warning: unused variable 'val' [-Wunused-variable]
+   77 |  int8_t val;
+      |         ^~~
+arm-none-eabi-gcc -o "nucleoNFC.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="nucleoNFC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: nucleoNFC.elf
+ 
+arm-none-eabi-objdump -h -S  nucleoNFC.elf  > "nucleoNFC.list"
+arm-none-eabi-objcopy  -O binary  nucleoNFC.elf  "nucleoNFC.bin"
+arm-none-eabi-size   nucleoNFC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17108	    120	   1808	  19036	   4a5c	nucleoNFC.elf
+Finished building: default.size.stdout
+ 
+Finished building: nucleoNFC.bin
+ 
+Finished building: nucleoNFC.list
+ 
+16:53:51 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-size   nucleoNFC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17108	    120	   1808	  19036	   4a5c	nucleoNFC.elf
+Finished building: default.size.stdout
+ 
+16:54:11 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-size   nucleoNFC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17108	    120	   1808	  19036	   4a5c	nucleoNFC.elf
+Finished building: default.size.stdout
+ 
+16:55:02 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:77:9: warning: unused variable 'val' [-Wunused-variable]
+   77 |  int8_t val;
+      |         ^~~
+arm-none-eabi-gcc -o "nucleoNFC.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="nucleoNFC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: nucleoNFC.elf
+ 
+arm-none-eabi-objdump -h -S  nucleoNFC.elf  > "nucleoNFC.list"
+arm-none-eabi-objcopy  -O binary  nucleoNFC.elf  "nucleoNFC.bin"
+arm-none-eabi-size   nucleoNFC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17108	    120	   1808	  19036	   4a5c	nucleoNFC.elf
+Finished building: default.size.stdout
+ 
+Finished building: nucleoNFC.bin
+ 
+Finished building: nucleoNFC.list
+ 
+16:57:42 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:77:9: warning: unused variable 'val' [-Wunused-variable]
+   77 |  int8_t val;
+      |         ^~~
+arm-none-eabi-gcc -o "nucleoNFC.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="nucleoNFC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: nucleoNFC.elf
+ 
+arm-none-eabi-objdump -h -S  nucleoNFC.elf  > "nucleoNFC.list"
+arm-none-eabi-objcopy  -O binary  nucleoNFC.elf  "nucleoNFC.bin"
+arm-none-eabi-size   nucleoNFC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17108	    120	   1808	  19036	   4a5c	nucleoNFC.elf
+Finished building: default.size.stdout
+ 
+Finished building: nucleoNFC.bin
+ 
+Finished building: nucleoNFC.list
+ 
+16:59:36 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:77:9: warning: unused variable 'val' [-Wunused-variable]
+   77 |  int8_t val;
+      |         ^~~
+arm-none-eabi-gcc -o "nucleoNFC.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="nucleoNFC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: nucleoNFC.elf
+ 
+arm-none-eabi-objdump -h -S  nucleoNFC.elf  > "nucleoNFC.list"
+arm-none-eabi-objcopy  -O binary  nucleoNFC.elf  "nucleoNFC.bin"
+arm-none-eabi-size   nucleoNFC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17108	    120	   1808	  19036	   4a5c	nucleoNFC.elf
+Finished building: default.size.stdout
+ 
+Finished building: nucleoNFC.bin
+ 
+Finished building: nucleoNFC.list
+ 
+17:00:29 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:77:9: warning: unused variable 'val' [-Wunused-variable]
+   77 |  int8_t val;
+      |         ^~~
+arm-none-eabi-gcc -o "nucleoNFC.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="nucleoNFC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: nucleoNFC.elf
+ 
+arm-none-eabi-objdump -h -S  nucleoNFC.elf  > "nucleoNFC.list"
+arm-none-eabi-objcopy  -O binary  nucleoNFC.elf  "nucleoNFC.bin"
+arm-none-eabi-size   nucleoNFC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17108	    120	   1808	  19036	   4a5c	nucleoNFC.elf
+Finished building: default.size.stdout
+ 
+Finished building: nucleoNFC.bin
+ 
+Finished building: nucleoNFC.list
+ 
+17:00:58 **** Incremental Build of configuration Debug for project nucleoNFC ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/Drivers/ST25DV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:77:9: warning: unused variable 'val' [-Wunused-variable]
+   77 |  int8_t val;
+      |         ^~~
+arm-none-eabi-gcc -o "nucleoNFC.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/luka/eth_schule/IIS/semester-thesis_implantable_tranceiver/code/stm32cubeide_workspace/nucleoNFC/STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="nucleoNFC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: nucleoNFC.elf
+ 
+arm-none-eabi-objdump -h -S  nucleoNFC.elf  > "nucleoNFC.list"
+arm-none-eabi-objcopy  -O binary  nucleoNFC.elf  "nucleoNFC.bin"
+arm-none-eabi-size   nucleoNFC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17108	    120	   1808	  19036	   4a5c	nucleoNFC.elf
+Finished building: default.size.stdout
+ 
+Finished building: nucleoNFC.bin
+ 
+Finished building: nucleoNFC.list
+ 
