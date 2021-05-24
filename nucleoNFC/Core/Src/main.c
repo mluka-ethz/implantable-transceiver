@@ -47,8 +47,7 @@ UART_HandleTypeDef huart2;
 
 /* USER CODE BEGIN PV */
 
-static const uint8_t st25dv_ADDR = 0b10100110; // Use 8-bit address
-static const uint8_t REG_DATA = 0x00;
+
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -73,8 +72,6 @@ int main(void)
 {
   /* USER CODE BEGIN 1 */
 	HAL_StatusTypeDef ret;
-	uint8_t buf[8];
-	int8_t val;
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -98,16 +95,21 @@ int main(void)
   MX_USART2_UART_Init();
   MX_I2C3_Init();
   /* USER CODE BEGIN 2 */
-  buf[0] = 0;
-  buf[1] = REG_DATA;
-  buf[2] = 0x4;
-  printf("starting transmission\n");
-  ret = HAL_I2C_Master_Transmit(&hi2c3, st25dv_ADDR, buf, 3, HAL_MAX_DELAY);
-  if ( ret != HAL_OK ) {
-        printf("Error Tx\r\n");
-  } else{
-	  printf("success \n");
+  static const uint16_t REG_DATA = 0x2002;
+  uint8_t data;
+  int problem = 1;
+
+  data = NFC_ReadFromUserAddress(&ret, hi2c3, REG_DATA);
+  printf("data = %x \n", data);
+  while(problem){
+	  problem = NFC_EnableEH(&ret, hi2c3);
+	  printf("trying \n");
   }
+  problem = 1;
+  while(problem){
+  	  problem = NFC_DisableEH(&ret, hi2c3);
+  	  printf("trying \n");
+    }
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -115,6 +117,9 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
+	data = NFC_ReadFromUserAddress(&ret, hi2c3, REG_DATA);
+	printf("EH is %x \n", data);
+	HAL_Delay(1000);
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
