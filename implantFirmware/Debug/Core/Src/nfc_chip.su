@@ -1,0 +1,4 @@
+nfc_chip.c:3:5:NFC_WriteToUserAddress	32	static
+nfc_chip.c:23:9:NFC_ReadFromUserAddress	32	static
+nfc_chip.c:50:5:NFC_EnableEH	32	static
+nfc_chip.c:69:5:NFC_DisableEH	32	static
