@@ -12,7 +12,7 @@
 #include "stm32l4xx_hal.h"
 #include "stm32l4xx_hal_pwr_ex.h"
 #include "stm32l4xx_hal_pwr.h"
-
+#include "stm32l4xx_hal_gpio.h"
 
 
 void stm32l_lowPowerSetup(uint32_t time, RTC_HandleTypeDef *hrtc);

@@ -16,5 +16,9 @@ void stm32l_lowPowerSetup(uint32_t time, RTC_HandleTypeDef *hrtc){
 
 
 	// Switch to STOPMode
-	HAL_PWR_EnterSTOPMode(PWR_LOWPOWERREGULATOR_ON, PWR_STOPENTRY_WFI);
+	//HAL_PWR_EnterSTOPMode(PWR_LOWPOWERREGULATOR_ON, PWR_STOPENTRY_WFI);
+	//HAL_PWREx_EnterSTOP2Mode(PWR_STOPENTRY_WFI);
+	HAL_PWREx_EnterSHUTDOWNMode();
+
 }
+

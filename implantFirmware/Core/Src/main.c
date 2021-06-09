@@ -51,8 +51,8 @@ RTC_HandleTypeDef hrtc;
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
-static void MX_I2C1_Init(void);
 static void MX_RTC_Init(void);
+static void MX_I2C1_Init(void);
 /* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
@@ -78,7 +78,7 @@ int main(void)
   HAL_Init();
 
   /* USER CODE BEGIN Init */
-
+  uint16_t raw;
   /* USER CODE END Init */
 
   /* Configure the system clock */
@@ -89,17 +89,27 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
-  MX_I2C1_Init();
   MX_RTC_Init();
+  MX_I2C1_Init();
   /* USER CODE BEGIN 2 */
 
   static const uint16_t REG_DATA = 0x2;
   uint8_t data = 0x3;
 
 
-  NFC_WriteToUserAddress(&ret, hi2c1, REG_DATA, data);
-  HAL_Delay(100);
-  NFC_EnableEH(&ret, hi2c1);
+  //NFC_WriteToUserAddress(&ret, hi2c1, REG_DATA, data);
+  //HAL_Delay(100);
+
+
+  for(int i = 0; i<30; i++){
+	  HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_6);
+	  HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_7);
+	  HAL_Delay(100);
+  }
+
+//	  HAL_Delay(100);
+ // }
+  //HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_12);
 
   /* USER CODE END 2 */
 
@@ -110,11 +120,16 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-	  if (ret == 0){
+	// HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_12);
+	// stm32l_lowPowerSetup(1000, &hrtc);
+	//  HAL_Delay(2000);
+	  //HAL_ADC_Start(&hadc1);
+	  //HAL_ADC_PollForConversion(&hadc1, HAL_MAX_DELAY);
+	  //raw = HAL_ADC_GetValue(&hadc1);
+	  NFC_EnableEH(&ret, hi2c1);
 	  HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_6);
 	  HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_7);
-	  }
-	  HAL_Delay(1000);
+	  HAL_Delay(300);
   }
   /* USER CODE END 3 */
 }
@@ -238,8 +253,8 @@ static void MX_RTC_Init(void)
   */
   hrtc.Instance = RTC;
   hrtc.Init.HourFormat = RTC_HOURFORMAT_24;
-  hrtc.Init.AsynchPrediv = 0x7c;
-  hrtc.Init.SynchPrediv = 0x127;
+  hrtc.Init.AsynchPrediv = 127;
+  hrtc.Init.SynchPrediv = 255;
   hrtc.Init.OutPut = RTC_OUTPUT_DISABLE;
   hrtc.Init.OutPutRemap = RTC_OUTPUT_REMAP_NONE;
   hrtc.Init.OutPutPolarity = RTC_OUTPUT_POLARITY_HIGH;
@@ -299,7 +314,17 @@ static void MX_GPIO_Init(void)
   __HAL_RCC_GPIOB_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_12, GPIO_PIN_RESET);
+
+  /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(GPIOB, GPIO_PIN_6|GPIO_PIN_7, GPIO_PIN_RESET);
+
+  /*Configure GPIO pin : PA12 */
+  GPIO_InitStruct.Pin = GPIO_PIN_12;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
   /*Configure GPIO pins : PB6 PB7 */
   GPIO_InitStruct.Pin = GPIO_PIN_6|GPIO_PIN_7;

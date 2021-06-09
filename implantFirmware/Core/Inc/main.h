@@ -33,6 +33,7 @@ extern "C" {
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "nfc_chip.h"
+#include "low_power_mode.h"
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/
